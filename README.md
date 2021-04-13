@@ -5,7 +5,7 @@
   <a href="https://npmjs.org/package/android-publish">
     <img alt="Version" src="https://img.shields.io/npm/v/android-publish.svg">
   </a>
-  <a href="https://github.com/HausennTechnologies/android-publish/actions/workflows/build.yml">
+  <a href="https://github.com/HausennTechnologies/android-publish/actions/workflows/release.yml">
     <img alt="Build" src="https://github.com/HausennTechnologies/android-publish/actions/workflows/release.yml/badge.svg?branch=master">
   </a>
   <a href="https://npmjs.org/package/android-publish">
