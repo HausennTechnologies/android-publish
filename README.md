@@ -8,12 +8,6 @@
   <a href="https://github.com/HausennTechnologies/android-publish/actions/workflows/build.yml">
     <img alt="Build" src="https://github.com/HausennTechnologies/android-publish/actions/workflows/release.yml/badge.svg?branch=master">
   </a>
-  <a href="https://david-dm.org/HausennTechnologies/android-publish">
-    <img alt="Dependencies" src="https://img.shields.io/david/HausennTechnologies/android-publish">
-  </a>
-  <a href="https://david-dm.org/HausennTechnologies/android-publish?type=dev">
-    <img alt="Dev Dependencies" src="https://img.shields.io/david/dev/HausennTechnologies/android-publish">
-  </a>
   <a href="https://npmjs.org/package/android-publish">
     <img alt="Downloads per week" src="https://img.shields.io/npm/dw/android-publish.svg">
   </a>
