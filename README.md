@@ -12,7 +12,7 @@
     <img alt="Dependencies" src="https://img.shields.io/david/HausennTechnologies/android-publish">
   </a>
   <a href="https://david-dm.org/HausennTechnologies/android-publish?type=dev">
-    <img alt="Dev Dependencies" src="https://img.shields.io/github/license/HausennTechnologies/android-publish">
+    <img alt="Dev Dependencies" src="https://img.shields.io/david/dev/HausennTechnologies/android-publish">
   </a>
   <a href="https://npmjs.org/package/android-publish">
     <img alt="Downloads per week" src="https://img.shields.io/npm/dw/android-publish.svg">
