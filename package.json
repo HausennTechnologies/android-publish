@@ -2,7 +2,7 @@
   "name": "android-publish",
   "description": "Push Android Bundles to Google Play Store from cli",
   "author": "Hausenn @HausennTechnologies",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "license": "MIT",
   "homepage": "https://github.com/HausennTechnologies/android-publish",
   "repository": "https://github.com/HausennTechnologies/android-publish",
