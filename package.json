@@ -43,7 +43,7 @@
     "@oclif/config": "^1.17.0",
     "@oclif/plugin-help": "^3.2.2",
     "@types/sinon": "^10.0.2",
-    "cli-ux": "^5.5.1",
+    "cli-ux": "^6.0.9",
     "googleapis": "^76.0.0",
     "tslib": "^2.2.0"
   },
