@@ -11,7 +11,7 @@ import { createReadStream, existsSync, ReadStream } from 'fs';
  *
  * @note https://developers.google.com/android-publisher/api-ref/rest
  */
-class AndroidPublish extends Command {
+export class AndroidPublish extends Command {
   static description = 'Push Android Bundles to Google Play Store from cli';
 
   static flags = {
@@ -97,7 +97,7 @@ class AndroidPublish extends Command {
       this.progressStop('done!');
     } catch (error) {
       this.progressStop('fail!');
-      this.error(error, { exit: ExitCode.ERROR_CONNECT });
+      this.error(error as Error, { exit: ExitCode.ERROR_CONNECT });
     }
   }
 
@@ -112,7 +112,7 @@ class AndroidPublish extends Command {
       this.progressStop('done!');
     } catch (error) {
       this.progressStop('fail!');
-      this.error(error, { exit: ExitCode.ERROR_UPLOAD_BUNDLE });
+      this.error(error as Error, { exit: ExitCode.ERROR_UPLOAD_BUNDLE });
     }
   }
 
@@ -127,7 +127,7 @@ class AndroidPublish extends Command {
       this.progressStop('done!');
     } catch (error) {
       this.progressStop('fail!');
-      this.error(error, { exit: ExitCode.ERROR_SET_TRACK });
+      this.error(error as Error, { exit: ExitCode.ERROR_SET_TRACK });
     }
   }
 
@@ -142,7 +142,7 @@ class AndroidPublish extends Command {
       this.progressStop('done!');
     } catch (error) {
       this.progressStop('fail!');
-      this.error(error, { exit: ExitCode.ERROR_COMMIT });
+      this.error(error as Error, { exit: ExitCode.ERROR_COMMIT });
     }
   }
 
@@ -168,5 +168,3 @@ class AndroidPublish extends Command {
     }
   }
 }
-
-export = AndroidPublish;

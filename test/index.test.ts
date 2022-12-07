@@ -9,7 +9,7 @@ import * as fakes from './fakes';
 import { google } from 'googleapis';
 import { ExitCode } from '../src/exit-code';
 
-import cmd = require('../src');
+import { AndroidPublish as cmd } from '../src';
 
 chai.should();
 chai.use(sinonChai);
